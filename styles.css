@@ -1,0 +1,54 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: navy;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25vh;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: slategray;
+  padding: 2rem;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: gold;
+  color: black;
+  font-size: 1rem;
+}
+
+#output {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: gold;
+  color: black;
+  font-size: 1rem;
+}
